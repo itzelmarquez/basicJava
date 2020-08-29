@@ -39,7 +39,7 @@ ingresarCredenciales(){
 
 verificarPaginaSongs(){
     - estoy en la pagina de songs
-    - header,
+    - header
 	- lista de canciones
 	- menus
     }
@@ -49,10 +49,22 @@ verificarMensajeBienvenida(){
     - You are now logged in as frank
     }
 
-clickContacto(){
-    -
+seleccionarContacto(){
+    - dar clic en contacto
     }
-validarPantallaContacto()
-completarFormulario()
-clickBotonGuardar()
-validarPantallaConfirmacion()
+
+validarPantallaContacto(){
+    - verificar que se muestre header
+        - verificar que se muestre el mensaje You can contact me by filling in the form below:"
+    - verificar que se muestre Name
+    - verificar que se muestre Email
+    - verificar que se muestre Your message
+    - botón send message
+    - link log out
+}
+completarFormulario(){
+    - capturar Name
+    - capturuar Email
+    - Capturar mensaje
+    - Dar clic en Boton enviar mensaje
+}

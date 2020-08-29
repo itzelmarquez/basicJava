@@ -1,0 +1,5 @@
+hacer10sandwchesbolonia(){
+    numero_bolonia = 0
+    hacerSandwich(numero_bolinia = 10)
+    sumar numero_bolonia + 1
+}

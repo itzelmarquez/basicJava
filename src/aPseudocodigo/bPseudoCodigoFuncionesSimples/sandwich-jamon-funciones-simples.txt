@@ -1,0 +1,8 @@
+hacerSandwich(){
+   reunirIngredientes()
+   reunirUtencilioCocina()
+   tomarRebanadasPan()
+   untarAderezoPan()
+   agregarIngredientes()
+   envolverSandwich()
+}

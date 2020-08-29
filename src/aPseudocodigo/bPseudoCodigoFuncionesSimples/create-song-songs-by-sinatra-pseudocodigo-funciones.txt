@@ -1,0 +1,17 @@
+navegarPagina(){
+    verificarHomePage()
+    clickLogin()
+    verificarPaginaLogin()
+    ingresarCredenciales()
+    verificarPaginaSongs()
+    verificarMensajeBienvenida()
+}
+crearCancion (){
+   clickCancion()
+   verificarPaginaCancion()
+   clickCrearNuevaCancion ()
+   verificarPaginaCrearCancion()
+   completarFormulario()
+   clickSalvarCancion()
+   validarPaginaCancionCreada()
+   }

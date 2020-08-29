@@ -1,0 +1,61 @@
+scenarioMultiplicacion(){
+    numero_uno es igual a perdir numero
+}
+
+escenarioMultiplicacion() {
+    numero_uno es igual a pedir numero uno
+    numero_dos es igual a pedir numero dos
+
+    numero_total_cifras = sacarNumeroCifras(numero_uno) (2)
+    contador cifra_actual es igual al numero_total_cifras (2)
+    resultado_parcial = 0
+
+    while(cifra_actual > 0) {
+        sacar la cifra_actual del numero_uno
+        numero_actual = multiplicar cifra_actual del numero_uno * numero_dos
+        numero_actual se le agrega (numero_total_cifras - cifra_actual) ceros
+
+        resultado_parcial = resultado_parcial + numero_actual
+        cifra_actual = cifra actual - 1
+    }
+
+    imprimo el resultado_parcial
+
+}
+48
+x2
+___
+
+
+
+
+345
+x 5
+___
+
+25
+
+225
+
+1725
+
+
+
+
+numero_total_cifras = 2
+cifra_actual = 2
+
+condicion: cifra_actual > 0? SI
+
+8 * 2 = 16
+
+resultado_parcial = 16
+
+cifra_actual = 1
+condicion: cifra_actual > 0? SI
+
+4 * 2 = 80
+
+resultado_parcial = 16 + 80 = 96
+
+cifra_actual = 0

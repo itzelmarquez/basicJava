@@ -1,0 +1,18 @@
+scenarioDivision(){
+    numero_uno es igual a perdir numero uno (24)
+    numero_dos es igual a pedir numero dos (2)
+
+    numero_total_cifras = sacarNumeroCifras(numero_uno) (2 cifras)
+    cursor es igual 1
+    resultado parcial = 0
+
+    while(cursor <= numero_total_cifras){
+        sacar el numuero_cursor del numero_uno
+        resultado = dividir numero_cursor del numero_uno / numero_dos
+        residuo = numero_cursor mod numero_dos
+        cursor = cursor + 1
+    }
+    imprimo el resultado_parcial
+
+}
+

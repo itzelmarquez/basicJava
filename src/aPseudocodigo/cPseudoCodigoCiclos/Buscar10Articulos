@@ -1,0 +1,12 @@
+buscar10Articulos(){
+    //contador
+    numero_articulo = 0
+
+//While (numero_articulo < 3)
+    {
+    //instrucciones
+
+    buscarArticulo()
+    sumar numero_articulo + 1
+    }
+}

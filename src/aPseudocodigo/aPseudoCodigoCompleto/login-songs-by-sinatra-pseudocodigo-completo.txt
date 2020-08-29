@@ -1,0 +1,23 @@
+Hacer login
+Abrir el navegador
+Navegar a la pagina https://evening-bastion-49392.herokuapp.com/
+Validar que cargo correctamente la pagina
+    - checar el header
+    - checar las ligas de home, about, contact, songs, login
+    - Mensaje de bienvenida
+Login
+     - click al login
+     - validar que aparece la pagina de login
+	    -aparece el campo de usuario
+    	    - campo de password
+	    -boton de login
+	   - encabezado y barra de menu
+     - ingresar credenciales, usuario y password
+     - click a login
+Validar que el usuario ha sido fogueado
+     - estoy en la pagina de songs
+           - header,
+	   - lista de canciones
+	    - menus
+     - un mensaje de bienvenida
+          -You are now logged in as frank

@@ -1,0 +1,52 @@
+Hacer login
+Abrir el navegador
+Navegar a la pagina https://evening-bastion-49392.herokuapp.com/
+Validar que cargo correctamente la pagina
+    - checar el header
+    - checar las ligas de home, about, contact, songs, login
+    - Mensaje de bienvenida
+Login
+     - click al login
+     - validar que aparece la pagina de login
+	    -aparece el campo de usuario
+    	    - campo de password
+	    -boton de login
+	   - encabezado y barra de menu
+     - ingresar credenciales, usuario y password
+     - click a login
+Validar que el usuario ha sido fogueado
+     - estoy en la pagina de songs
+           - header,
+	   - lista de canciones
+	    - menus
+    - un mensaje de bienvenida
+          -You are now logged in as frank
+Crear Canción
+    - Dentro del menú buscar canción
+       - Dar clic en canción
+         - Buscar en la lista la opción crear canción
+         - Dar clic en Crear nueva canción
+            -Validar que se muestre en nombre de la pantalla en la que te encuentras
+            -Validar que se muestre formulario (titulo, longitud, fecha, letra)
+            -Validar que se muestren el boton (Guardar canción)
+            -Validar que se muestre el link (salir)
+         - Capturar
+            - titulo de la canción
+            - longitud
+            - fecha
+            - letra
+          - Dar clic en Guardar Canción
+             - Se muestra un encabezado
+             - Se muestra un menú (Home, About, Contac, song)
+             - Se deberá mostrar la pantalla con la confirmación "Canción agregada exitosamente"
+             - El nombre de la canción creada
+             - Fecha de lanzamiento: 31 de julio de 2020
+             - Duración: 0 minutos 18 segundos
+             - Letra de la canción (Esta es una prueba)
+             - Sección de like con el mensaje (¡A nadie le ha gustado esta canción hasta ahora!)
+             - Link (Volver al índice de canciones)
+             - link (edita esta canción)
+             - Botón Elimar canción
+             - link (cerrar sesión)
+
+

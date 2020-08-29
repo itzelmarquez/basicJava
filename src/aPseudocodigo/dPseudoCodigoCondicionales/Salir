@@ -1,0 +1,10 @@
+edad=15
+permisoSalir = no
+if(edad>18){
+permisoSalir =si
+tomarcerveza()
+}
+else{
+permisoSalir = no
+tomarLecheConGalletas ()
+}

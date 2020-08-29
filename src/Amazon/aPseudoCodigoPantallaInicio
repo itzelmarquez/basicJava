@@ -1,0 +1,11 @@
+scenarioPantallaIncio(){
+    navegarPaginaAmazon()
+    verifcarEncabezados()
+    verificarSeccionesCompra()
+    verificarSeccionMetodosPago()
+    verificarSeccionMasVendidos()
+    verificarSeccionRelacionadoVistos()
+
+
+
+}

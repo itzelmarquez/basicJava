@@ -1,0 +1,52 @@
+scenarioLogin() {
+    navegarPagina()
+    verificarHomePage()
+    clickLogin()
+    verificarPaginaLogin()
+    ingresarCredenciales()
+    verificarPaginaSongs()
+    verificarMensajeBienvenida()
+}
+
+navegarPagina() {
+    Abrir el navegador
+    Navegar a la pagina https://evening-bastion-49392.herokuapp.com/
+}
+
+verificarHomePage(){
+    Validar que cargo correctamente la pagina
+        - checar el header
+        - checar las ligas de home, about, contact, songs, login
+
+}
+clickLogin(){
+    - click al login
+}
+
+verificarPaginaLogin(){
+
+    -validar que aparece la pagina de login
+	    - aparece el campo de usuario
+    	- campo de password
+	    - boton de login
+	    - encabezado y barra de menu
+
+}
+
+ingresarCredenciales(){
+
+    - ingresar credenciales, usuario y password
+    - click a login
+
+}
+verificarPaginaSongs(){
+     - estoy en la pagina de songs
+    - header,
+	- lista de canciones
+	- menus
+
+}
+verificarMensajeBienvenida(){
+    - un mensaje de bienvenida
+    - You are now logged in as frank
+}

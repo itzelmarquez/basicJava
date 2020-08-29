@@ -1,0 +1,122 @@
+scenarioEditarCancion(){
+    navegarPaginaSinatra()
+    clickLogin()
+    verificarPantallaLogin()
+    capturarCredenciales()
+    verificarPantallaSongs()
+    seleccionarCancion()
+    verificarDetalleCancion()
+    clickEditarCancion()
+    verificarFormularioCancion()
+    editarFormularioCancion()
+    verificarMensajeActualizacionCancion()
+    verificarCamposModificados()
+    }
+
+navegarPaginaSinatra() {
+    Abrir el navegador
+    Navegar a la pagina https://evening-bastion-49392.herokuapp.com/
+    }
+
+verificarHomePage(){
+    Validar que cargo correctamente la pagina
+        - checar el header
+        - checar las ligas de home, about, contact, songs, login
+    }
+
+clickLogin(){
+    - click al login
+    }
+
+verificarPaginaLogin(){
+    -validar que aparece la pagina de login
+	    - aparece el campo de usuario
+    	- campo de password
+	    - boton de login
+	    - encabezado y barra de menu
+    }
+
+ingresarCredenciales(){
+    - ingresar credenciales, usuario y password
+    - click a login
+    }
+
+verificarPaginaSongs(){
+    - estoy en la pagina de songs
+    - header,
+	- lista de canciones
+	- menus
+    }
+
+verificarMensajeBienvenida(){
+    - un mensaje de bienvenida
+    - You are now logged in as frank
+    }
+
+seleccionarCancion(){
+    - Buscar cancion
+    - Seleccionar cancion
+    - Dar clic en el link de la canción
+     }
+
+verificarDetalleCancion(){
+    - verificar nombre cancion
+    - verificar fecha cancion
+    - verificar tiempo de duracion
+    - verificar letra cancion
+    - verificar que se muestre mensaje like cancion
+    - verificar que se muestre icono like
+    - verificar que se muestre link para regresar a las canciones
+    - verificar que se muestre link  editar esta cancion
+    - Verificar que se muestre boton eliminar esta cancion
+    - verificar que se muestre link salir
+    }
+
+clickEditarCancion(){
+    - dar clic en el link editar esta cancion
+    }
+
+verificarFormularioCancion(){
+    - verificar que se muestre encabezado
+        - verificar que se muestre el mensaje "Songs By Sinatra"
+        - Verificar que se muestre imagen
+    - Verificar que se muestre titulo
+        - verificar que se muestre el nombre de la cancion consultada
+    - Verificar que se muestre duracion consultada
+        - verificar que se muestre la duracion en minutos y segundos  de la cancion consultada
+    - Verificar que se muestre fecha
+        - verificar que se muestre la fecha en el formato mes-dia-año
+    - Verificar que se muestre letra
+        - verificar que se muestre la letra de la cancion escrita
+    - Verificar que se muestre boton guardar cancion
+    - Verificar que se muestre link Salir
+    }
+
+editarFormularioCancion(){
+    - editar el campo duracion
+    - editar el campo letra
+    - dar clic en guardar cancion
+    }
+
+verificarMensajeActualizacionCancion(){
+    - verificar que se muestre encabezado
+            - verificar que se muestre el mensaje "Songs By Sinatra"
+            - Verificar que se muestre imagen
+    - verificar que se muestre el mensaje de confirmación de la actualizacion
+    - Verificar que se muestre titulo
+       - verificar que se muestre el nombre de la cancion consultada
+    - Verificar que se muestre duracion consultada
+       - verificar que se muestre la duracion en minutos y segundos  de la cancion consultada
+    - Verificar que se muestre fecha
+       - verificar que se muestre la fecha en el formato mes-dia-año
+    - Verificar que se muestre letra
+       - verificar que se muestre la letra de la cancion modificada
+    - Verificar que se muestre boton guardar cancion
+    - Verificar que se muestre link Salir
+    }
+
+verificarCamposModificados(){
+    - verificar el campo duración
+        - verificar que el tiempo modificado sea el correcto
+    - verificar que se muestre la letra de la cancion con la modificación realizada
+    }
