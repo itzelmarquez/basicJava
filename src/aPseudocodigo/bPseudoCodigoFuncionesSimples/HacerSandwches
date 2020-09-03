@@ -1,6 +1,10 @@
-hacer2Sandwiches(){
+hacer10Sandwiches(){
+    //contador
+    no-sw = 0
+    
+while (no-sw > 9) {
+    //instrucciones
     hacerSandwich()
-    hacerSandwich()
-
-while (
+    sumar no-sw + 1
+}
 }

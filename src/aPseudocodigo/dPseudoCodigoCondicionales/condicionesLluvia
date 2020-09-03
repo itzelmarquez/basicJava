@@ -1,0 +1,16 @@
+condicionesLluvia (){
+    lluvia1 = chispear
+    lluvia2 = fuerte
+    
+    salirSinParaguas = si
+    salir = no
+    
+    if(lluvia1) {
+        salirSinParaguas = si
+        irAlaTienda()
+    }   
+    else (lluvia2){
+        salir = no
+        quedarseEnCasa()
+    }
+}

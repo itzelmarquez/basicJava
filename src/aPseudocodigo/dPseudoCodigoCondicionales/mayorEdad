@@ -1,0 +1,12 @@
+mayorEdad(){
+    Edad = 18
+    permisoSalir = si
+    if(edad>18){
+        permisoSalir = si
+        irCine()
+    }
+    else{
+    permisoSalir = no
+    jugarVideoJuegos()
+    }
+    }

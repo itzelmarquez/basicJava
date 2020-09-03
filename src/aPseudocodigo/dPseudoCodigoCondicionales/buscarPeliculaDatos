@@ -1,0 +1,12 @@
+BuscarPeliculasDatos(){
+    pelicula = 'Buscando a Dory'
+
+if (pelicula ='Buscando a Dory){
+escribirPelicula = 'Buscando a Dory'
+}
+
+else{
+noSeEncontroPelicula()
+}
+
+}

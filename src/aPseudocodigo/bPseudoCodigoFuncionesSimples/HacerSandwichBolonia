@@ -1,0 +1,8 @@
+hacerSandwchBolonia(){
+   reunirIngredientes()
+   reunirUtencilioCocina()
+   tomarRebanadasPan()
+   untarAderezoPan()
+   agregarIngredientes()
+   envolverSandwich()
+}
