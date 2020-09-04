@@ -1,5 +1,8 @@
 hacer10sandwchesJamon(){
     numero_sandwich = 0
-    hacerSandwich(numero_sandwich = 10)
+    while(numero_sandwich < 10){
+    hacerSandwich()
     sumar numero_sandwich + 1
+
+    }  
 }
