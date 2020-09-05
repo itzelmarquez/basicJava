@@ -1,13 +1,12 @@
 BuscarPeliculasDatos(){
     pelicula = 'Buscando a Dory'
     escribir pelicula en el campo de busqueda
+    dar clic en el boton buscar
 
 if (pelicula ='Buscando a Dory){
 escribirPelicula = 'Buscando a Dory'
 }
-
 else{
-noSeEncontroPelicula()
+noSeEncontroPelicula = 'La pelicula "Buscando a Dory no fue encontrada".'
 }
-
 }
