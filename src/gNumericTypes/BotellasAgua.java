@@ -7,7 +7,7 @@ public class BotellasAgua {
     static int numBotellas;
 
     public static void main(String[] args) {
-        System.out.println("Cuantos mnutos estas en la ducha:");
+        System.out.println("Cuantos minutos estas en la ducha:");
         numMinutos = Input.get_int();
         //si el numero es positivo, muestra un mensaje correcto, multiplica por doce y imprime el numBotellas
         if(numMinutos >= 0) {

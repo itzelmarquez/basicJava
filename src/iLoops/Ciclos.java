@@ -36,7 +36,6 @@ public class Ciclos {
 			hagoAlgo();
 		}
 	}
-
 	private static void hagoAlgo() {
 		System.out.println("repeticion");
 	}

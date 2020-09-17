@@ -16,7 +16,6 @@ public class MarioFacilon {
         }
 
     }
-
     private static void imprimirEspacios(int altura, int numGatos) {
         int numEspacios = altura + 1 - numGatos;
         int numEspaciosActual = 0;

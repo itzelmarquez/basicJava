@@ -16,7 +16,7 @@ public class EjemplosString {
 		
 		Input.print("La frase '" + s + "' contiene 'Selenium'? " + s.contains("Selenium") + "\n");
 		Input.print("La frase '" + s + "' comienza con 'Selenium'? " + s.startsWith("Selenium") + "\n");
-		Input.print("La frase '" + s + "' comienza con 'Selenium'? " + s.endsWith("Selenium") + "\n");
+		Input.print("La frase '" + s + "' termina con 'Selenium'? " + s.endsWith("Selenium") + "\n");
 
 		String b = "boo:and:foo";
 		Input.print(b.split(":"));
