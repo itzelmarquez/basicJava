@@ -15,6 +15,8 @@ public class inicialesFacil {
             char caracterActual = nombre.charAt(posicionActual);
             if(caracterActual == ' '){
                 System.out.print(nombre.charAt(posicionActual+1));
+
+
             }
             posicionActual++;
         }

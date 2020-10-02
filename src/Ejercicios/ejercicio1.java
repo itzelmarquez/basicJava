@@ -6,7 +6,7 @@ package Ejercicios;
 
 import libs.Input;
 
-public class sumaRestaMultiplicarDividirNumeros {
+public class ejercicio1 {
     public static void main(String[] args) {
     // Usuario ingresa el primer número
         System.out.println("Ingresa un 1er número: ");
